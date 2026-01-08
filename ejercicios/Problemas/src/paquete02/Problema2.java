@@ -24,7 +24,7 @@ public class Problema2 {
         nombreViviendas = obtenerNombre();
         consumoEnergeticoR = obtenerConsumo();
         sumaConsumo = obtenerSuma(consumoEnergeticoR);
-        procedimientoFinal(nombreViviendas,sumaConsumo);
+        procedimientoFinal(nombreViviendas, sumaConsumo);
     }
 
     public static String[] obtenerNombre() {
@@ -44,7 +44,7 @@ public class Problema2 {
         int[][] consumo = new int[10][12];
         for (int i = 0; i < consumo.length; i++) {
             for (int c = 0; c < consumo[i].length; c++) {
-                System.out.printf("Ingrese consumo energético de la vivienda%d"
+                System.out.printf("Ingrese consumo energético de la vivienda %d"
                         + " en el mes %d: ", i + 1, c + 1);
                 consumo[i][c] = entrada.nextInt();
             }
@@ -60,21 +60,21 @@ public class Problema2 {
             suma = 0;
             for (int c = 0; c < a[i].length; c++) {
                 suma = suma + a[i][c];
-
             }
             sumas[i] = suma;
         }
         return sumas;
     }
 
-    public static void  procedimientoFinal (String [] a, int[] b) {
+    public static void procedimientoFinal(String[] a, int[] b) {
 
         String mensajeFinal = "";
         for (int i = 0; i < a.length; i++) {
-            String.format("%sLa vivienda de nombre %s consumió anualmente %d",
-                    mensajeFinal,a[i],b[i]);
+            mensajeFinal = String.format("%sLa vivienda de nombre %s consumió "
+                    + "anualmente %d\n",
+                    mensajeFinal, a[i], b[i]);
         }
-
-            System.out.printf("%s\n",mensajeFinal);
-        }
+        System.out.printf("%s\n", mensajeFinal);
     }
+}
+

@@ -1,0 +1,6 @@
+Una parte importante dentro de este problema es la correspondencia de datos, 
+ya que al estár colocando y recibiendo datdos en funciones diferentes, se puede 
+cometer el error de recibir otro tipo de datos, la parte más dificil de este 
+problema fue a la hora de realizar el reporte final ya que no recordaba el uso 
+correcto de una acumulacion de cadenas, otro error que cometí fue a la hora de 
+crear un procedmiento.
