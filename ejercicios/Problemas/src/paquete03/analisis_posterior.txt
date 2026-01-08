@@ -1,0 +1,5 @@
+Luego de haber realizado el problema, no hubo parte dificil de comprende, a si 
+mismo las partes más importantes es crear e invocar de manera correcta las funciones, 
+otro punto importante es la limitacion de las opciones colocando un condicional,
+cometí un error en el uso de los condicionales a la hora de cortar el curso del 
+programa, lo solucioné cortandolo al condicional.
