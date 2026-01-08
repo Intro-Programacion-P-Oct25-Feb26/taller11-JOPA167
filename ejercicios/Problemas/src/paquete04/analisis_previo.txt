@@ -1,0 +1,5 @@
+Un punto importante es la creacion de una variable para la obtencion de la opcion
+luego de ello comprobaremos si está dentro de las posibilidades del programa con
+un condicional. Crearemos prodecimientos con variables locales necesarias para su
+funcionamiento, finalmente dentro de cada procedimiento creamos un reporte
+el cual imprimitá los datos requeridos.
