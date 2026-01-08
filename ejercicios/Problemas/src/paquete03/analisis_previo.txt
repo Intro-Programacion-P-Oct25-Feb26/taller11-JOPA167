@@ -1,0 +1,5 @@
+Lo primero que debemos realizar es la obtencion de la opcion del usuario, luego 
+de ello junto a un condicional comprobaremos si está dentro de las opciones del
+promgrama, si esto es verdadero el programa continuara, caso contrario se acabará
+también deberemos crear procedimiento para cada opcion y a su vez variables 
+locales,luego imprimeros el reporte. 
