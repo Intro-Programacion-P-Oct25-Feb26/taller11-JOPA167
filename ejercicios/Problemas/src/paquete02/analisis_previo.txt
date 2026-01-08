@@ -1,0 +1,6 @@
+Lo primero que debemos hacer es crear los arreglos en donde recibieromos el 
+resultado de todas las funciones, luego de ello crearemo la primera funcion en 
+donde con un ciclo iremos pidiendo el nombre de las viviendas, en la 2do funcion
+haremos lo mismo pero en este caso iremos pidiendo el consumo mensual, a su vez
+crearemos una funcion que acceda a los valores del consumo energetico y las sume
+finalmente un procedimiento recibira el nombre y la suma total y los imprimirá 

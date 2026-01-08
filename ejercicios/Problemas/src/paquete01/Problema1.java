@@ -29,7 +29,7 @@ public class Problema1 {
                 }
             }
         }
-        System.out.println(cadena);
+        System.out.printf("%s\n",cadena);
     }
 
 }
