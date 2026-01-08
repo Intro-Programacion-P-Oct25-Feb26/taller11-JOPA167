@@ -1,0 +1,6 @@
+con el arreglo ya creado el cual es el unico dato que necesitamos, crearemos un 
+procedimiento el cual reciba como parametro dicho arreglo, dentro de este proce-
+dimiento crearemos una variable cadena que acumulará todo un ciclo para el cual 
+recorra todo el arreglo, adem+as de ello crearemos un condicional para operar 
+los numeros y ver si son pares, en el caso de que se cumpla la condicion se lo 
+concatenará y al final de el ciclo, imprimiremos la cadena.

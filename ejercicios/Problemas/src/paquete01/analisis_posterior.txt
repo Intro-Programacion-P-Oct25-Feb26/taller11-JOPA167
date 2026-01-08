@@ -1,0 +1,5 @@
+La parte más importante del programa es establecer bien la condicion que
+definirá si es par, otra parte importante es tener bien identados los ciclo for
+para obtener la posicion exacta del valor que vamos a evaluar, un problema que 
+cometí fue poner en lugar incorrecto la variable cadena, por lo que los valores
+que se imprimian no eran todos.
