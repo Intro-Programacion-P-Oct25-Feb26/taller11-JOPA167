@@ -1,0 +1,5 @@
+Luego de haber solucionado el problema 7, encontr varios puntos claves uno de 
+ellos era la funcion para contar el numero de caracteres, ya que con ello pude 
+construir la condiconal requerida dentro del procedimiento, otro punto importante
+fue la creacion de un contador dentro del procedimiento el cual me permitia saber
+si al final tenia la capacidad de presentar valores o no.

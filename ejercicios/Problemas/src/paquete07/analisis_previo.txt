@@ -1,0 +1,6 @@
+Para resolver este ejercio lo primero que se debe hacer es crear el metodo 
+principal, ademas de crear una arreglo el cual recibira el nombre de las ciudades
+escritar en la funcion que tambien crearemos, detro de esta funcion crearemos un
+ciclo repetitivo para preguntar el nombre de la ciudad e ir asignado valores al
+arereglo, dentro del procedimiento recibiremos el arreglo, crearemos un condicional
+para comprobar si cumple con la condicion de tener 4 o 5 caracteres.

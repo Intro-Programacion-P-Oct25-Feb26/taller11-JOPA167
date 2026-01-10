@@ -1,0 +1,6 @@
+Un punto importante dentro de este problema es limitar si la opcion ingresada
+esta dentro del rango de las opciones disponibles en el programa, esto para 
+evitar ingresar datos teniendo la posibilidad que el usuario cometa un error,
+otro punto importante es realizar una correcta asignacion de los parametros a la
+hora invocar a las funciones, esto para que a la hora de generar el reporte podamos
+tomar los valores como el nombre y cedula.

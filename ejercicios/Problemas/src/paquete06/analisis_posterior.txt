@@ -1,0 +1,5 @@
+Luego de haber realizado el ejercio, pude identificar que un punto importante
+es comprender de que manera se va representar la formula de la desvicion estandar
+ya que tiene varias operaciones integradas. Un error que cometí fue a la hora de
+declarar el tipo de dato de algunas variables que utilice en formulas de la
+media aritemetcia y desviacion Estandar.

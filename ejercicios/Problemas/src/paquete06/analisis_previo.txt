@@ -1,0 +1,4 @@
+Para realizar el problema lo primero que debo es recordad de que manera puedo
+calcular la media y la desviación estandar, luego de ello creare dos funciones
+con sus respectivas variables y parametros, ademas de ello creare variables 
+que recibiran el resultado dentro del metodo principal.

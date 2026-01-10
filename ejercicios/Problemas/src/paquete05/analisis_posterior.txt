@@ -1,0 +1,4 @@
+Luego de haber realizado el problema 5 agregué un procedimineto el cual me permite
+generar el reporte de cada arreglo, incluso el del arreglo final, para poder
+visualizarlo, un punto importante dentro del codigo es la asignacion de 0 a la hora
+de recorrer otra fila, para que los valores no se alteren.

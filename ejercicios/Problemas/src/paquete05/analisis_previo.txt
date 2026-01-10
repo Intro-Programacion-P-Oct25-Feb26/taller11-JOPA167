@@ -1,0 +1,5 @@
+Un factor importante dentro de este problema es la creacion de la funcion y la
+asignacion de los problemas dentro de ella, ya que a apartir de ellos recorremos
+en los arreglos y asi hacer la suma, dentro de la funcion crearemos 2 ciclo para 
+recorrer las listas, además de ello crearemos una variable de arreglo de enteros
+para ahi guardar los valores de la suma.

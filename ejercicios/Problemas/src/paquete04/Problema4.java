@@ -29,10 +29,10 @@ public class Problema4 {
             cedula = entrada.nextLine();
             switch (opcion){
                 case 1:
-                    obtenerAreaCuadrado();
+                    calcularValorLuz(nombre,cedula);
                     break;
                 case 2:
-                    obtenerAreaTriangulo();
+                    calcularPredio(nombre,cedula);
                     break;
                 
             }
@@ -40,14 +40,35 @@ public class Problema4 {
             System.out.println("LA OPCIÓN INGRESADA NO ES COMPATIBLE");
         }
     }
-    public static String calcularValorLuz(String n,String C){
+    public static String calcularValorLuz(String n,String c){
         Scanner entrada = new Scanner(System.in);
         double valorK;
         int numeroK;
+        double total;
+        String reporte;
         System.out.println("Ingrese el valor del kilowatio: ");
         valorK = entrada.nextDouble();
         System.out.println("Ingrese el número de kilowatio: ");
         numeroK = entrada.nextInt();
+        total = valorK * numeroK;
+        reporte = String.format("Cliente %s con cédula %s debe cancelar el valor"
+                + " de %.2f",n,c,total);
+        return reporte;
+        
+    }
+    public static String calcularPredio(String n,String c){
+        Scanner entrada = new Scanner(System.in);
+        double valorInmueble;
+        double predio = 0.02;
+        double total;
+        String reporte;
+        System.out.println("Ingrese el valor del inmueble: ");
+        valorInmueble = entrada.nextDouble();  
+        total = valorInmueble * predio;
+        reporte = String.format("Cliente %s con cédula %s  tiene un bien inmueble"
+                + " valorado en %s $ y tiene que pagar de predio %.2f $.",n,
+                c,valorInmueble,total);
+        return reporte;
         
     }
     
