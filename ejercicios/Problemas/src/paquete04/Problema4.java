@@ -17,11 +17,13 @@ public class Problema4 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int opcion;
+        String reporte="";
         String nombre;
         String cedula;
         System.out.println("Ingrese la opcion que desea utilizar:1. Calcular Valor"
                 + "Luz 2.Calcular Predio");
         opcion = entrada.nextInt();
+        entrada.nextLine();
         if (opcion>0 & opcion <=3){
             System.out.println("Ingrese su nombre: ");
             nombre = entrada.nextLine();
@@ -29,16 +31,17 @@ public class Problema4 {
             cedula = entrada.nextLine();
             switch (opcion){
                 case 1:
-                    calcularValorLuz(nombre,cedula);
+                    reporte = calcularValorLuz(nombre,cedula);
                     break;
                 case 2:
-                    calcularPredio(nombre,cedula);
+                    reporte = calcularPredio(nombre,cedula);
                     break;
                 
             }
         }else{
             System.out.println("LA OPCIÓN INGRESADA NO ES COMPATIBLE");
         }
+        System.out.println(reporte);
     }
     public static String calcularValorLuz(String n,String c){
         Scanner entrada = new Scanner(System.in);
